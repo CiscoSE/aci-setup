@@ -1,0 +1,12 @@
+{
+  "lacpIfPol": {
+    "attributes": {
+      "dn": "uni/infra/lacpifp-{{name}}",
+      "name": "{{name}}",
+      "descr": "{{descr}}",
+      "rn": "lacpifp-{{name}}",
+      "status": "created"
+    },
+    "children": []
+  }
+}

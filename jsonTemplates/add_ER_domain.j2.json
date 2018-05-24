@@ -1,0 +1,21 @@
+{
+  "l3extDomP": {
+    "attributes": {
+      "dn": "uni/l3dom-{{name}}",
+      "name": "{{name}}",
+      "rn": "l3dom-{{name}}",
+      "status": "created"
+    },
+    "children": [
+      {
+        "infraRsVlanNs": {
+          "attributes": {
+            "tDn": "uni/infra/vlanns-[{{vlan}}]-static",
+            "status": "created"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

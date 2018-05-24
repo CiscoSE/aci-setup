@@ -1,0 +1,31 @@
+
+{
+  "infraAccPortGrp": {
+    "attributes": {
+      "dn": "uni/infra/funcprof/accportgrp-{{name}}",
+      "name": "{{name}}",
+      "rn": "accportgrp-{{name}}",
+      "status": "created"
+    },
+    "children": [
+      {
+        "infraRsAttEntP": {
+          "attributes": {
+            "tDn": "uni/infra/attentp-{{name}}",
+            "status": "created,modified"
+          },
+          "children": []
+        }
+      },
+      {
+        "infraRsHIfPol": {
+          "attributes": {
+            "tnFabricHIfPolName": "LK_10G_AUTO_INTPL",
+            "status": "created,modified"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

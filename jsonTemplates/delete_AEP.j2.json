@@ -1,0 +1,19 @@
+{
+  "infraInfra": {
+    "attributes": {
+      "dn": "uni/infra",
+      "status": "modified"
+    },
+    "children": [
+      {
+        "infraAttEntityP": {
+          "attributes": {
+            "dn": "uni/infra/attentp-{{name}}",
+            "status": "deleted"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

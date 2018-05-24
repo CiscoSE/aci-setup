@@ -1,0 +1,14 @@
+{
+  "fvBD": {
+    "attributes": {
+      "dn": "uni/tn-PROD_TN/BD-{{name}}",
+      "mac": "00:22:BD:F8:19:FF",
+      "name": "{{name}}",
+      "arpFlood": "true",
+      "unicastRoute": "false",
+      "rn": "BD-{{name}}",
+      "status": "created"
+    },
+    "children": []
+  }
+}

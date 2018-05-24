@@ -1,0 +1,15 @@
+{  
+   "stpIfPol":{  
+      "attributes":{  
+         "dn":"uni/infra/ifPol-{{name}}",
+         "name":"{{name}}",
+         "descr":"{{description}}",
+         "ctrl":"{{interfacecontrol}}",
+         "rn":"ifPol-{{name}}",
+         "status":"created"
+      },
+      "children":[  
+
+      ]
+   }
+}

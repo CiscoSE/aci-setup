@@ -1,0 +1,13 @@
+{
+  "lacpLagPol": {
+    "attributes": {
+      "dn": "uni/infra/lacplagp-{{name}}",
+      "name": "{{name}}",
+      "descr": "{{description}}",
+      "mode": "{{mode}}",
+      "rn": "lacplagp-{{name}}",
+      "status": "created"
+    },
+    "children": []
+  }
+}

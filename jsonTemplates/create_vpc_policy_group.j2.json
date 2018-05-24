@@ -1,0 +1,46 @@
+{  
+   "infraAccBndlGrp":{  
+      "attributes":{  
+         "dn":"uni/infra/funcprof/accbundle-{{name}}",
+         "lagT":"node",
+         "name":"{{name}}",
+         "rn":"accbundle-{{name}}",
+         "status":"created"
+      },
+      "children":[  
+         {  
+            "infraRsAttEntP":{  
+               "attributes":{  
+                  "tDn":"uni/infra/attentp-{{aep}}",
+                  "status":"created,modified"
+               },
+               "children":[  
+
+               ]
+            }
+         },
+         {  
+            "infraRsHIfPol":{  
+               "attributes":{  
+                  "tnFabricHIfPolName":"{{linklevel}}",
+                  "status":"created,modified"
+               },
+               "children":[  
+
+               ]
+            }
+         },
+         {  
+            "infraRsLacpPol":{  
+               "attributes":{  
+                  "tnLacpLagPolName":"{{portchannel}}",
+                  "status":"created,modified"
+               },
+               "children":[  
+
+               ]
+            }
+         }
+      ]
+   }
+}

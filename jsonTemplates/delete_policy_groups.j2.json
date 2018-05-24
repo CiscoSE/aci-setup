@@ -1,0 +1,9 @@
+{
+  "infraAccPortGrp": {
+    "attributes": {
+      "dn": "uni/infra/funcprof/accportgrp-{{name}}",
+      "status": "deleted"
+    },
+    "children": []
+  }
+}

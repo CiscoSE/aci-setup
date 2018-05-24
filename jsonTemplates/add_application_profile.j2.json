@@ -1,0 +1,13 @@
+{
+   "fvAp":{  
+      "attributes":{  
+         "dn":"uni/tn-{{tenant_name}}/ap-{{name}}",
+         "name":"{{name}}",
+         "rn":"ap-{{name}}",
+         "status":"created"
+      },
+      "children":[  
+
+      ]
+   }
+}

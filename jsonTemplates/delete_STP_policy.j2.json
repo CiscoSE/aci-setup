@@ -1,0 +1,19 @@
+{
+  "infraInfra": {
+    "attributes": {
+      "dn": "uni/infra",
+      "status": "modified"
+    },
+    "children": [
+      {
+        "stpIfPol": {
+          "attributes": {
+            "dn": "uni/infra/ifPol-{{name}}",
+            "status": "deleted"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

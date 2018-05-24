@@ -1,0 +1,19 @@
+{
+   "fabricHIfPol":{
+      "attributes":{
+         "dn":"uni/infra/hintfpol-{{name}}",
+         "name":"{{name}}",
+         "speed":"{{speed}}G",
+         "descr": "{{description}}",
+          "autoNeg":"{{negotiation}}",
+         "rn":"hintfpol-{{name}}",
+         "status":"created"
+      },
+      "children":[
+
+      ]
+   }
+}
+
+
+

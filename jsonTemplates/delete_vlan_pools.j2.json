@@ -1,0 +1,21 @@
+{
+   "infraInfra":{
+      "attributes":{
+         "dn":"uni/infra",
+         "status":"modified"
+      },
+      "children":[
+         {
+            "fvnsVlanInstP":{
+               "attributes":{
+                  "dn":"uni/infra/vlanns-{{name}}-static",
+                  "status":"deleted"
+               },
+               "children":[
+
+               ]
+            }
+         }
+      ]
+   }
+}

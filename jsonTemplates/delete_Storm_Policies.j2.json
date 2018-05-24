@@ -1,0 +1,19 @@
+{
+  "infraInfra": {
+    "attributes": {
+      "dn": "uni/infra",
+      "status": "modified"
+    },
+    "children": [
+      {
+        "stormctrlIfPol": {
+          "attributes": {
+            "dn": "uni/infra/stormctrlifp-{{name}}",
+            "status": "deleted"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

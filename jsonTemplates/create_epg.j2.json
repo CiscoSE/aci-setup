@@ -1,0 +1,23 @@
+{  
+   "fvAEPg":{  
+      "attributes":{  
+         "dn":"uni/tn-PROD_TN/ap-PROD_AP/epg-{{name}}",
+         "name":"{{name}}",
+         "rn":"epg-{{name}}",
+         "status":"created"
+      },
+      "children":[  
+         {  
+            "fvRsBd":{  
+               "attributes":{  
+                  "tnFvBDName":"{{bd}}",
+                  "status":"created,modified"
+               },
+               "children":[  
+
+               ]
+            }
+         }
+      ]
+   }
+}

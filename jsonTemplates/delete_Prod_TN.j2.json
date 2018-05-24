@@ -1,0 +1,20 @@
+{
+  "polUni": {
+    "attributes": {
+      "dn": "uni",
+      "status": "modified"
+    },
+    "children": [
+      {
+        "fvTenant": {
+          "attributes": {
+            "dn": "uni/tn-{{name}}",
+            "status": "deleted"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}
+

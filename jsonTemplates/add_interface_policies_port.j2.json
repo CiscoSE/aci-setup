@@ -1,0 +1,12 @@
+{
+  "l2IfPol": {
+    "attributes": {
+      "dn": "uni/infra/l2IfP-{{name}}",
+      "name": "{{name}}",
+      "vlanScope": "{{vlanScope}}",
+      "rn": "l2IfP-{{name}}",
+      "status": "created"
+    },
+    "children": []
+  }
+}

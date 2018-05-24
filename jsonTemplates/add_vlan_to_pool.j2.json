@@ -1,0 +1,14 @@
+{  
+   "fvnsEncapBlk":{  
+      "attributes":{  
+         "dn":"uni/infra/vlanns-[{{name}}]-static/from-[vlan-{{lowervlan}}]-to-[vlan-{{uppervlan}}]",
+         "from":"vlan-{{lowervlan}}",
+         "to":"vlan-{{uppervlan}}",
+         "rn":"from-[vlan-{{lowervlan}}]-to-[vlan-{{uppervlan}}]",
+         "status":"created"
+      },
+      "children":[  
+
+      ]
+   }
+}

@@ -1,0 +1,21 @@
+{  
+   "infraInfra":{  
+      "attributes":{  
+         "dn":"uni/infra",
+         "status":"modified"
+      },
+      "children":[  
+         {  
+            "l2IfPol":{  
+               "attributes":{  
+                  "dn":"uni/infra/l2IfP-{{name}}",
+                  "status":"deleted"
+               },
+               "children":[  
+
+               ]
+            }
+         }
+      ]
+   }
+}

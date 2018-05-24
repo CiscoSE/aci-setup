@@ -1,0 +1,21 @@
+{  
+   "infraInfra":{  
+      "attributes":{  
+         "dn":"uni/infra",
+         "status":"modified"
+      },
+      "children":[  
+         {  
+            "fabricHIfPol":{  
+               "attributes":{  
+                  "dn":"uni/infra/hintfpol-{{name}}",
+                  "status":"deleted"
+               },
+               "children":[  
+
+               ]
+            }
+         }
+      ]
+   }
+}

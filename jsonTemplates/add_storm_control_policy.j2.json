@@ -1,0 +1,15 @@
+{
+   "stormctrlIfPol":{
+      "attributes":{
+         "dn":"uni/infra/stormctrlifp-{{name}}",
+         "name":"{{name}}",
+         "rate":"{{rate}}",
+         "burstRate":"{{burstrate}}",
+         "rn":"stormctrlifp-{{name}}",
+         "status":"created"
+      },
+      "children":[
+
+      ]
+   }
+}
